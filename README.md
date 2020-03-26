@@ -1,27 +1,30 @@
 # TaglibWrapper
 A simple Objective C++ wrapper to call Taglib from Swift
 
-Import into your Bridging Header:
+###### Import into your Bridging Header:
 #import "TaglibWrapper.h"
 
-Examples:
+###### Examples:
 
-<b>Get MP3 Chapters:</b>
+**Get MP3 Chapters:**
+```
 if let array = TaglibWrapper.getChapters(audioURL.path) as? [String] { ... }
-
-<b>Save MP3 Chapters:</b>
+```
+**Save MP3 Chapters:**
 Pass an array of strings formatted like: "CHAPTER_TITLE@TIME_IN_MILLISECONDS"
-
+```
 let array = markers.map({ marker -> String in
     marker.name + "@" + String(Int(marker.time * 1000))
 })
 TaglibWrapper.setChapters(url.path, array: array)
-
-<b>Get metadata as NSDictionary:</b>
+```
+**Get metadata as NSDictionary:**
+```
 guard let tag = TaglibWrapper.getMetadata(audioURL.path) else { ... }
+```
 
-<b>Set metadata from Dictionary:</b>
-
+**Set metadata from Dictionary:**
+```
 var dict = [String: String]()
 dict["COMMENT"] = "Hi"
 
@@ -35,3 +38,4 @@ dict["PUBLISHER"] = metadata.publisher
 dict["BPM"] = String(metadata.bpm)
 
 TaglibWrapper.setMetadata(path, dictionary: dict)
+```
