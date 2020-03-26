@@ -1,5 +1,5 @@
 # TaglibWrapper
-A simple Objective C++ wrapper to call Taglib from Swift
+A simple Objective C++ wrapper to call Taglib from Swift. This implies that you have already built and added the tag.framework to your project.
 
 ## Import into your Bridging Header:
 #import "TaglibWrapper.h"
