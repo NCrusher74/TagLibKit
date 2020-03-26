@@ -39,3 +39,27 @@ dict["BPM"] = String(metadata.bpm)
 
 TaglibWrapper.setMetadata(path, dictionary: dict)
 ```
+
+**Some common key constants you could use in Swift:**
+```
+public enum TaglibKeys {
+	public static let comment = "COMMENT"
+	public static let album = "ALBUM"
+	public static let bpm = "BPM"
+	public static let composer = "COMPOSER"
+	public static let arranger = "ARRANGER"
+	public static let genre = "GENRE"
+	public static let grouping = "CONTENTGROUP"
+	public static let title = "TITLE"
+	public static let artist = "ARTIST"
+	public static let publisher = "LABEL"
+	public static let isrc = "ISRC"
+	public static let contentGroup = "CONTENTGROUP"
+	public static let chapter = "CHAP"
+	public static let albumArtist = "ALBUMARTIST"
+	public static let owner = "OWNER"
+	public static let copyright = "COPYRIGHT"
+	public static let subtitle = "SUBTITLE"
+	public static let key = "INITIALKEY"
+}
+```
