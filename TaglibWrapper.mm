@@ -8,19 +8,19 @@
 #include <iostream>
 #include <iomanip>
 #include <stdio.h>
-#import <tag/tag.h>
-#import <tag/fileref.h>
-#import <tag/tstring.h>
-#import <tag/rifffile.h>
-#import <tag/wavfile.h>
-#import <tag/aifffile.h>
-#import <tag/mpegfile.h>
-#import <tag/mp4file.h>
-#import <tag/chapterframe.h>
-#import <tag/tstringlist.h>
-#import <tag/tpropertymap.h>
-#import <tag/textidentificationframe.h>
-#import <tag/tfilestream.h>
+#import <taglib/tag.h>
+#import <taglib/fileref.h>
+#import <taglib/tstring.h>
+#import <taglib/rifffile.h>
+#import <taglib/wavfile.h>
+#import <taglib/aifffile.h>
+#import <taglib/mpegfile.h>
+#import <taglib/mp4file.h>
+#import <taglib/chapterframe.h>
+#import <taglib/tstringlist.h>
+#import <taglib/tpropertymap.h>
+#import <taglib/textidentificationframe.h>
+#import <taglib/tfilestream.h>
 #import "TaglibWrapper.h"
 
 using namespace std;

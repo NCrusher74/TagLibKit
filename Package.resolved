@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "TagLib",
+        "repositoryURL": "https://github.com/NCrusher74/TagLib-SPM",
+        "state": {
+          "branch": "master",
+          "revision": "e5a089ea4eb53d31057d562aae0ba53eca8e5234",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
