@@ -5,8 +5,8 @@
         "package": "TagLib",
         "repositoryURL": "https://github.com/NCrusher74/TagLib-SPM",
         "state": {
-          "branch": "master",
-          "revision": "e5a089ea4eb53d31057d562aae0ba53eca8e5234",
+          "branch": "minor-changes-to-frames",
+          "revision": "f14a1cb81470b085a12c9e802c1194d3729148e9",
           "version": null
         }
       }
