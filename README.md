@@ -5,6 +5,7 @@ A simple Objective C++ wrapper to call Taglib from Swift. This implies that you 
 
 Simply add `https://github.com/NCrusher74/TagLibKit.git` branch: `master` to your Swift Package Dependencies.
 
+
 ## Examples:
 
 **Get MP3 Chapters:**
